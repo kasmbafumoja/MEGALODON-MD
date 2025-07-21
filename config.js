@@ -13,7 +13,7 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~6d9G1LDR#yXoHYVybsjVHa-zA_lCPZODuYpswolAydjSdKNuQqgY",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~eM8HzTKR#pcUxiIijAMOp49ku-2yyxNXA32jvakbVCY0S4gpyuV0",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || "+",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MBAFUMOJA",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
@@ -28,7 +28,7 @@ module.exports = {
     
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",// Reply to status updates?
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*MEGALODON BOT VIEWED YOUR STATUS 🤖*",  // Status reply message
-    READ_MESSAGE: process.env.READ_MESSAGE || "false",          // Mark messages as read automatically?
+    READ_MESSAGE: process.env.READ_MESSAGE || "true",          // Mark messages as read automatically?
 
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
