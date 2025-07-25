@@ -12,11 +12,11 @@ SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~7QMBXTCI#31ijd_3dlcmE5D5KQT7
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴜᴄᴄᴇssғᴜʟʟʏ ᴠɪᴇᴡᴇᴅ ʙʏ ᴍᴇɢᴀʟᴏᴅᴏɴ-ᴍᴅ*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*KAS VIEWED YOUR STATUS*",
 // set the auto reply massage on status reply  
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups    
@@ -26,31 +26,31 @@ MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/2ozipw.
 // add custom menu and mention reply image url
 PREFIX: getConfig("PREFIX") || ",", 
 // add your prifix for bot   
-OWNER_NAME: getConfig("OWNER_NAME") || "𝐃      𝐀      𝐑      𝐊      𝐒      𝐄      𝐈      𝐃",
+OWNER_NAME: getConfig("OWNER_NAME") || "I    R   T  E R M U X",
 // add bot owner name
 CHATBOT: getConfig("CHATBOT") || "on", 
 //chatbot on/off
-BOT_NAME: process.env.BOT_NAME || "MEGALODON-MD",
+BOT_NAME: process.env.BOT_NAME || "TERMUX-MD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "MEGALODON-MD",
+STICKER_NAME: process.env.STICKER_NAME || "TERMUX-MD",
     
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
-CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
+CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "😀,😇,🥰,🤯,🤕,☠️,🤖,💔,☻️,💤,🤌,🤏,👌,🤞🤳,👁,👀,👵,🙋‍♂️,🧏‍♂️,🙆,🧑‍💼,👨‍🔬,🧑‍💻,👩‍🚀,🧕,👰,🦸‍♂️,🎅",
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
-// automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "50932818924",
+// automatic delete links with remove member 
+OWNER_NUMBER: process.env.OWNER_NUMBER || "243994158410",
 // add your bot owner number
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
-AUTO_REACT: process.env.AUTO_REACT || "false",
+AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words 
 ANTI_BOT: process.env.ANTI_BOT || "true",
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
@@ -60,19 +60,19 @@ ANTILINK_KICK: process.env.ANTILINK_KICK || "false",
 ANTILINK: process.env.ANTILINK || "false",
 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
-// maks true for always online 
+// make true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "50948336180",
+DEV: process.env.DEV || "243970639878",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'inbox' if you want to resend deleted message in same chat 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
-// make it true for auto recoding 
+AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
+// make it false for auto recoding 
 };
