@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~7QMBXTCI#31ijd_3dlcmE5D5KQT7GpIEchsCRs2pJKoNawA-PLZw",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~H95wEQqL#lmNLunuX3ZtRwMBIe7gC6zCYqxhGuz-D-QlXXrXTbxs",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -30,7 +30,7 @@ OWNER_NAME: getConfig("OWNER_NAME") || "I    R   T  E R M U X",
 // add bot owner name
 CHATBOT: getConfig("CHATBOT") || "on", 
 //chatbot on/off
-BOT_NAME: process.env.BOT_NAME || "TERMUX-MD",
+BOT_NAME: process.env.BOT_NAME || "MEGALODON-MD",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "TERMUX-MD",
     
@@ -63,7 +63,7 @@ ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // make true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
-AUTO_TYPING: process.env.AUTO_TYPING || "true",
+AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
@@ -73,6 +73,6 @@ ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'inbox' if you want to resend deleted message in same chat 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
 // make it false for auto recoding 
 };
