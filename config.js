@@ -13,16 +13,16 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~id03iACZ#LvoxNzRAls4T9AKx0Q25DMrv96JeKK2FaNlrtudX61w",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~H95wEQqL#lmNLunuX3ZtRwMBIe7gC6zCYqxhGuz-D-QlXXrXTbxs",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "18099795976",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "243817874532",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("Glizzy") || "",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("Glizzy") || "kas",           // Owner's name
     
-    DEV: process.env.DEV || "18099795976",                     // Developer's contact number
+    DEV: process.env.DEV || "243817874532",                     // Developer's contact number
     
     // ===== AUTO-RESPONSE SETTINGS =====
     
